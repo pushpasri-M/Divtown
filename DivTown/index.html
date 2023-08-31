@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title></title>
+
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			text-align:align-center;
+			
+		}
+
+		.navbar {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			position: sticky;
+			top: 0;
+		    cursor: pointer;
+		}
+
+		.background {
+			background: black;
+			background-blend-mode: darken;
+			background-size: cover;
+		}
+
+		.nav-list {
+			width: 70%;
+			display: flex;
+			align-items: center;
+		}
+
+		.logo {
+			display: flex;
+			justify-content:right;
+			align-items:center-right;
+		}
+
+		.logo img {
+			width: 300px;
+			height:112.5px;
+			border-radius: 50px;
+		}
+
+		.nav-list li {
+			list-style: none;
+			padding: 26px 30px;
+		}
+
+		.nav-list li a {
+			text-decoration: none;
+			align:center-left;
+			color: white;
+		}
+
+		.nav-list li a:hover {
+			color: grey;
+		}
+
+		.rightnav {
+			width: 30%;
+			text-align: right;
+		}
+
+		#search {
+			padding: 5px;
+			font-size: 17px;
+			border: 2px solid grey;
+			border-radius: 9px;
+		}
+
+		.firstsection {
+			background-color:white;
+			height: 400px;
+		}
+
+		.secondsection {
+			background-color:white;
+			height: 400px;
+		}
+
+		.box-main {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			color: black;
+			max-width: 80%;
+			margin: auto;
+			height: 80%;
+		}
+
+		.firsthalf {
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+
+		.secondhalf {
+			width: 30%;
+		}
+
+		.secondhalf img {
+			width: 70%;
+			border: 4px solid white;
+			border-radius: 150px;
+			display: block;
+			margin: auto;
+		}
+		
+
+		.text-big {
+			font-family: 'Piazzolla', serif;
+			font-weight: bold;
+			font-size: 35px;
+		}
+
+		.text-small {
+			font-size: 18px;
+		}
+
+		.btn {
+			padding: 8px 20px;
+			margin: 7px 0;
+			border: 2px solid white;
+			border-radius: 8px;
+			background: none;
+			color: white;
+			cursor: pointer;
+		}
+
+		.btn-sm {
+			padding: 6px 10px;
+			vertical-align: middle;
+		}
+
+		.section {
+			height: 400px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			max-width: 90%;
+			margin: auto;
+			background-color:white;
+		}
+
+		.section-Left {
+			flex-direction: row-reverse;
+		}
+
+		.paras {
+			padding: 0px 65px;
+		}
+
+		.thumbnail img {
+			width: 250px;
+			border: 2px solid black;
+			border-radius: 26px;
+			margin-top: 19px;
+		}
+
+		.center {
+			text-align: center;
+		}
+
+		.text-footer {
+			text-align: center;
+			padding: 30px 0;
+			font-family: 'Ubuntu', sans-serif;
+			display: flex;
+			justify-content: center;
+			color: white;
+		}
+		.button {
+          background-color:brown;
+          border: bold;
+          color: black;
+          padding: 15px 32px;
+		  border-radius:20px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 2px;
+          cursor: pointer;
+        }
+	</style>
+</head>
+
+<body>
+	<nav class="navbar background">
+		<ul class="nav-list">
+			<div class="logo">
+				<img src= "img1.png">
+			</div>
+			<li><a href="">home</a></li>
+			<li><a href="">portfolio</a></li>
+			<li><a href="">brands</a></li>
+			<li><a href="">services</a></li>
+			<li><a href="">locations</a></li>
+			<li><a href="">shop</a></li>
+		</ul>
+
+		
+	</nav>
+	
+	
+	
+  
+         <div style="width:1350px;height:750px;background-color:grey">
+			<img src= "img2.jpeg" style="height:750px;width:1350px">
+			</img>
+		 </div>
+	<section class="firstsection">
+	<div class="box-main">
+			<div class="firstHalf">
+				<h1 class="text-big" id="program">
+					our showroom
+				</h1>
+				<p class="text-small">
+					Since 1998, Projects Contemporary Furniture, LC has been a premier showroom in the Midwest for luxury contemporary furniture, lighting, kitchens, closets and bath products in residential and contract settings.
+
+Projects operates as a full service showroom catering to the needs of homeowners, interior designers, builders and architects.
+				</p>
+
+
+			</div>
+		</div>
+		</section>
+	      <div style="width:1350px;height:750px">
+			<img src= "img3.jpeg" style="height:750px;width:1350px">
+			</img>
+		 </div>
+	
+	<section class="secondsection">
+		<div class="box-main">
+			<div class="firstHalf">
+				<h1 class="text-big" id="program">
+				full service design
+				</h1>
+				<p class="text-small">
+				We have an experienced interior design team, offering a wide range of services including space planning, product & fabric selections, design drawings and much more.
+
+We offer turnkey design services for Poliform cabinetry. Our design team is able to make your vision a reality.
+				</p><center>
+				
+				<big><button class="button" style="margin:60px,20px,60px,20px ;border:bold">view profile</button></big>
+				</center>
+
+
+			</div>
+		</div>
+		 
+	</section>
+	     <div style="width:1350px;height:700px">
+			<img src= "img4.jpg" style="height:750px;width:1350px">
+			</img>
+		 </div>
+
+	<section class="section">
+		<div class="paras">
+			<h1 class="sectionTag text-big">Contact Us</h1>
+
+			<p class="sectionSubTag text-small">
+				The threat of cyber attack is a constant and no modern business can afford to overlook it. But awareness alone is not enough. Many business owners know that cyber security is something they should be focusing on, particularly in the light of the introduction of GDPR in May 2018, but aren't sure how to go about it, and need answers to key questions, such as:
+ 
+
+How do I safeguard my business against attack?
+
+How can I minimise the risk of business data breaches?
+
+How can I optimise my IT network for GDPR?
+
+How do I demonstrate to my customers that we take IT security seriously?
+			</p>
+
+
+		</div>
+
+		<div class="thumbnail">
+			<img src= "img8.jpg" alt="laptop image">
+		</div>
+	</section>
+
+	<footer class="background">
+		<p class="text-footer">
+			Copyright ©-All rights are reserved
+		</p>
+
+
+	</footer>
+</body>
+
+</html>
